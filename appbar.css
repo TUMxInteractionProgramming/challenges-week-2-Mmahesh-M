@@ -1,0 +1,13 @@
+h1{
+    background-color: #4347C2;
+    color: white;
+}
+#main-bar{
+    margin-top: 0px solid white;
+    margin-bottom: 0px;
+}
+#channel-bar{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 0px solid #4347C2;
+}

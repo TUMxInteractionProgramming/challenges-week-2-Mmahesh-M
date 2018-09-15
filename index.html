@@ -1,191 +1,64 @@
-<!DOCTYPE html >
-<!-- #1 #structure #document -->
+<!DOCTYPE HTML SYSTEM>
 <html>
-<head>
-
-    <!-- #1 #structure #title -->
-    <title>chatter|app</title>
-
-    <!-- We need to specify the character encoding, since we use chinese characters -->
-    <meta charset="UTF-8">
-
-    <!-- #2 #css #elements -->
-    <style>
-
-        /* #2 #colorful #palette is:
-          * Background: #F5F5F5 (GREY 100)
-          * Primary Text: black
-
-          * Primary color: #3F51B5 (INDIGO)
-          * Primary color_text : white
-          * Accent color: #CDDC39 (LIME)
-          * Accent color_text: black
-          */
-
-        /*global styles */
-        * {
-            /* #2 #font #faces */
-            font-family: 'Arial', sans-serif;
-        }
-
-        body {
-            /* #2 #colorful #background */
-            background-color: #F5F5F5;
-        }
-
-        h1 {
-            /* #2 #colourful #app-bar */
-            background-color: #3F51B5;
-            color: white;
-        }
-
-        button {
-            /* #2 #colourful #plusfive */
-            background-color: #CDDC39;
-            color: black;
-            /* #2 #font capital #letters */
-            text-transform: uppercase;
-        }
-
-
-        /*styles for channel area*/
-        h2 {
-            /* #2 #colorful #channelandchat */
-            background-color: white;
-        }
-
-        /*styles for chat area*/
-        p {
-            /* #2 #colorful #channelandchat */
-            background-color: white;
-        }
-
-        strong {
-            /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
-            text-transform: uppercase;
-        }
-
-        h3 {
-            /* #2 #font #metadata is now medium */
-            font-size: medium;
-        }
-
-        em {
-            /* #2 #font #remaining overrides the default italic appearance of em elements*/
-            font-size: larger;
-            font-style: normal;
-        }
-
-    </style>
-
-</head>
-
-<body>
-
-<!-- channel area -->
-<!-- #1 #channels #app-bar -->
-<h1>chatter|app</h1>
-
-<!-- #1 #channels #topics -->
-<h2>#Yummy</h2>
-<h2>#SevenContinents</h2>
-<h2>#KillerApp</h2>
-<h2>#FirstPersonOnMars</h2>
-<h2>#Octoberfest</h2>
-
-<!-- #1 #channels #buttons -->
-<button>new</button>
-<button>trending</button>
-<button>favorites</button>
-
-
-<!-- chat area -->
-<!-- #1 #chat #name -->
-<h1>#SevenContinents
-    <!-- #1 #chat #location is wrapped in small tag-->
-    <small>by
-        <!-- #2 #font #locations need an extra element, we'll use strong for w3w locations -->
-        <strong>cheeses.yard.applies</strong>
-    </small>
-</h1>
-
-<!-- #1 #chat #metadata contains location, weekday, day, and time -->
-<h3>
-    <!-- #2 #font #locations need an extra element, we'll use strong for w3w locations -->
-    <strong>cheeses.yard.applies</strong>
-    Wed, June 20th, 13:37
-    <!-- #1 #chat #ttl lives inside the metadata -->
-    <em>15 min. left</em>
-</h3>
-<!-- #1 #chat #messages depict a short fictional chat-->
-<p>What's the place you folks call home?</p>
-<!-- #1 #chat #button subsequent to each message -->
-<button>+5 min.</button>
-
-<!-- #1 #chat #metadata contains location, weekday, day, and time -->
-<h3>
-    <!-- #2 #font #locations need an extra element, we'll use strong for w3w locations -->
-    <strong>truck.cotton.zone</strong>
-    Wed, June 20th, 13:39
-    <!-- #1 #chat #ttl lives inside the metadata -->
-    <em>4 min. left</em>
-</h3>
-<!-- #1 #chat #messages depict a short fictional chat-->
-<p>BRISBANE! Hang loose!</p>
-<!-- #1 #chat #button subsequent to each message -->
-<button>+5 min.</button>
-
-<!-- #1 #chat #metadata contains location, weekday, day, and time -->
-<h3>
-    <!-- #2 #font #locations need an extra element, we'll use strong for w3w locations -->
-    <strong>thus.best.dishes</strong>
-    Wed, June 20th, 14:02
-    <!-- #1 #chat #ttl lives inside the metadata -->
-    <em>12 min. left</em>
-</h3>
-<!-- #1 #chat #messages depict a short fictional chat-->
-<p>The big apple.</p>
-<!-- #1 #chat #button subsequent to each message -->
-<button>+5 min.</button>
-
-<!-- #1 #chat #metadata contains location, weekday, day, and time -->
-<h3>
-    <!-- #2 #font #locations need an extra element, we'll use strong for w3w locations -->
-    <strong>driveway.helper.magazine</strong>
-    Wed, June 20th, 14:02
-    <!-- #1 #chat #ttl lives inside the metadata -->
-    <em>7 min. left</em>
-</h3>
-<!-- #1 #chat #messages depict a short fictional chat-->
-<p>Eu sou um Carocas.</p>
-<!-- #1 #chat #button subsequent to each message -->
-<button>+5 min.</button>
-
-<!-- #1 #chat #metadata contains location, weekday, day, and time -->
-<h3>
-    <!-- #2 #font #locations need an extra element, we'll use strong for w3w locations -->
-    <strong>escapes.pitch.saucepan</strong>
-    Wed, June 20th, 14:07
-    <!-- #1 #chat #ttl lives inside the metadata -->
-    <em>14 min. left</em>
-</h3>
-<!-- #1 #chat #messages depict a short fictional chat-->
-<p>Greetings from the western cape!</p>
-<!-- #1 #chat #button subsequent to each message -->
-<button>+5 min.</button>
-
-<!-- #1 #chat #metadata contains location, weekday, day, and time  -->
-<h3>
-    <!-- #2 #font #locations need an extra element, we'll use strong for w3w locations -->
-    <strong>meanings.identity.pays</strong>
-    Wed, June 20th, 04:08
-    <!-- #1 #chat #ttl lives inside the metadata -->
-    <em>15 min. left</em>
-</h3>
-<!-- #1 #chat #messages depict a short fictional chat-->
-<p>北京</p>
-<!-- #1 #chat #button subsequent to each message -->
-<button>+5 min.</button>
-
-</body>
+    <head>
+        <link rel="stylesheet" href="global.css" />
+        <link rel="stylesheet" href="appbar.css" />
+        <link rel="stylesheet" href="channel.css" />
+        <link rel="stylesheet" href="tabbar.css" />
+        <link rel="stylesheet" href="message.css" />
+    </head>
+    <body>
+        <!-- Start with your chatter|app here -->
+        <h1 id="main-bar"><img src="https://ip.lfe.mw.tum.de/sections/moocus.png" alt="title of image" style="height:56px;">Chatter|app</h1>
+        <!--CHANNEL NAME STARTS-->
+        <h2>#Rampage<img src="https://ip.lfe.mw.tum.de/sections/star-o.png" alt="not fav"></h2>
+        <h2>#KillerReviewer <img src="https://ip.lfe.mw.tum.de/sections/star-o.png" alt="fav"></h2>
+        <h2>#SevenNations <img src="https://ip.lfe.mw.tum.de/sections/star.png" alt="fav"></h2>
+        <h2>#OctoberMood <img src="https://ip.lfe.mw.tum.de/sections/star.png" alt="fav"></h2>
+        <h2 id="selected-one">#BraveGuY </a><img src="https://ip.lfe.mw.tum.de/sections/star.png" alt="fav"></h2>
+        <!--CHANNEL NAME ENDS-->
+        <!--BUTTON TAG-->
+        <div><button type="button" class="tab-button" id="new-button"><img src="https://ip.lfe.mw.tum.de/sections/lightbulb-o.png" alt="new.png" class="icon"><p>New</p></button>
+             <button type="button" class="tab-button"><img src="https://ip.lfe.mw.tum.de/sections/fire.png" alt="trending.png" class="icon"><p>Trending</p></button>
+             <button type="button" class="tab-button"><img src="https://ip.lfe.mw.tum.de/sections/star.png" alt="favorite.png" class="icon"><p>Favorites</p></button>
+        </div>
+        <h1 id="channel-bar">#BraveGuY   by TODDLER.GELOGIST.ANIMATED <img src="https://ip.lfe.mw.tum.de/sections/star.png" alt="fav"></h1>
+        <!--META DATA + MESSAGE + BUTTON-->
+        <!--for all the meta data links are provided-->
+        <div class="active">
+        <h5><a href = "https://w3w.co/toddler.geologist.animated">toddler.geologist.animated</a>  Wed,Oct 03th,10:57 <em>15min .left</em></h5>
+        <div class="message"><p>What's this Place Folk's?</p></div>
+        <button type="button" class="time"> +5 min </button>
+        </div>
+        <!--META DATA + MESSAGE + BUTTON-->
+        <div class="not-active">
+        <h5><a href = "https://w3w.co/noses.hails.situates">noses.hails.situates </a>  Wed,Oct 03th,10:57 <em>15min .left</em></h5>
+        <div class="message"><p>Chill Place</p></div>
+        <button type="button" class="time"> +5 min </button>
+        </div>
+        <!--META DATA + MESSAGE + BUTTON-->
+        <div class="not-active">
+        <h5><a href = "https://w3w.co/situates.fluency.glazes">situates.fluency.glazes</a>  Wed,Oct 03th,10:57 <em>15min .left</em></h5>
+        <div class="message"><p>Comos estas?</p></div>
+        <button type="button" class="time"> +5 min </button>
+        </div>
+        <!--META DATA + MESSAGE + BUTTON-->
+        <div class="not-active">
+        <h5><a href = "https://w3w.co/seasonal.floral.ringers">seasonal.floral.ringers</a>  Wed,Oct 03th,10:57 <em>15min .left</em></h5>
+        <div class="message"><p>Hell of a place..huh?</p></div>
+        <button type="button" class="time"> +5 min </button>
+        </div>
+        <!--META DATA + MESSAGE + BUTTON-->
+        <div class="not-active">
+        <h5><a href = "https://w3w.co/revenge.swabs.portables">revenge.swabs.portables</a>  Wed,Oct 03th,10:57 <em>15min .left</em></h5>
+        <div class="message"><p>Can't WAITTTT !!!!!!!!!</p></div>
+        <button type="button" class="time"> +5 min </button>
+        </div>
+        <!--META DATA + MESSAGE + BUTTON-->
+        <div class="not-active">
+        <h5><a href = "https://w3w.co/regulate.brewing.desire">regulate.brewing.desire</a>  Wed,Oct 03th,10:57 <em>15min .left</em></h5>
+        <div class="message"><p>Great Build AND Guild !!!!!!</p></div>
+        <button type="button" class="time"> +5 min </button>
+        </div>
+    </body>
 </html>

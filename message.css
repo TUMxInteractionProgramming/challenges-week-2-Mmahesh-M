@@ -1,0 +1,25 @@
+.time{
+    background-color: palegreen;
+}
+em{
+    font-style: normal;
+    font-size: 1em;
+}
+.message{
+    background-color: white;
+    padding: 16px 0px 16px 16px;
+}
+.not-active{
+    margin-left: 2.5%;
+    margin-right: 17.25%;
+    margin-bottom: 8px;
+}
+.active{
+    margin-left: 17.25%;
+    margin-right: 2.5%;
+    margin-bottom: 8px;
+}
+a{
+    color: black;
+    text-transform: uppercase;
+}
